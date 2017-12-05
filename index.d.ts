@@ -1,7 +1,7 @@
 /**
  * Generated bundle index. Do not edit.
  */
-export * from './src/ng-zorro-antd.module';
+export * from './src/ant-ng.module';
 export { NzAffixComponent as ɵfm } from './src/affix/nz-affix.component';
 export { NzAlertComponent as ɵl } from './src/alert/nz-alert.component';
 export { NzAnchorLinkComponent as ɵfo } from './src/anchor/nz-anchor-link.component';

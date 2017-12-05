@@ -18615,16 +18615,16 @@ NzNotificationService.ctorParameters = function () { return [
 // Modules
 // Services
 // Tokens (eg. global services' config)
-var NgZorroAntdModule = (function () {
-    function NgZorroAntdModule() {
+var AntNgModule = (function () {
+    function AntNgModule() {
     }
     /**
      * @param {?=} options
      * @return {?}
      */
-    NgZorroAntdModule.forRoot = function (options) {
+    AntNgModule.forRoot = function (options) {
         return {
-            ngModule: NgZorroAntdModule,
+            ngModule: AntNgModule,
             providers: [
                 // Services
                 NzNotificationService,
@@ -18633,9 +18633,9 @@ var NgZorroAntdModule = (function () {
             ]
         };
     };
-    return NgZorroAntdModule;
+    return AntNgModule;
 }());
-NgZorroAntdModule.decorators = [
+AntNgModule.decorators = [
     { type: core.NgModule, args: [{
                 exports: [
                     NzButtonModule,
@@ -18688,7 +18688,7 @@ NgZorroAntdModule.decorators = [
 /**
  * @nocollapse
  */
-NgZorroAntdModule.ctorParameters = function () { return []; };
+AntNgModule.ctorParameters = function () { return []; };
 
 exports.NzGridModule = NzGridModule;
 exports.NzButtonModule = NzButtonModule;
@@ -18741,7 +18741,7 @@ exports.NzModalSubject = NzModalSubject;
 exports.NZ_MESSAGE_CONFIG = NZ_MESSAGE_CONFIG;
 exports.NZ_NOTIFICATION_CONFIG = NZ_NOTIFICATION_CONFIG;
 exports.NZ_ROOT_CONFIG = NZ_ROOT_CONFIG;
-exports.NgZorroAntdModule = NgZorroAntdModule;
+exports.AntNgModule = AntNgModule;
 exports.ɵfm = NzAffixComponent;
 exports.ɵl = NzAlertComponent;
 exports.ɵfo = NzAnchorLinkComponent;

@@ -1,6 +1,6 @@
 {
   "name": "ant-ng",
-  "version": "0.5.1",
+  "version": "0.5.1-b1",
   "license": "MIT",
   "description": "An enterprise-class UI components based on Ant Design and Angular",
   "scripts": {

@@ -51,6 +51,6 @@ export { NzModalSubject } from './modal/nz-modal-subject.service';
 export { NZ_MESSAGE_CONFIG } from './message/nz-message-config';
 export { NZ_NOTIFICATION_CONFIG } from './notification/nz-notification-config';
 export { NZ_ROOT_CONFIG, NzRootConfig } from './root/nz-root-config';
-export declare class NgZorroAntdModule {
+export declare class AntNgModule {
     static forRoot(options?: NzRootConfig): ModuleWithProviders;
 }
